@@ -1,0 +1,33 @@
+
+        body {
+            text-align: justify;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            background-color: rgb(85, 131, 72);
+        }
+        
+        .button {
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            color: rgb(21, 21, 21);
+            padding: 7px 5px;
+            text-decoration: none;
+        }
+
+        #profile-picture {
+            border-radius: 100%;
+        }
+
+        p {
+            color: rgb(21, 21, 21)
+        }
+
+        .title {
+            font-family: 'Josefin Sans', sans-serif;
+            color: rgb(255, 255, 255);
+        }
+
+        li {
+            text-align: cen;
+            list-style-type: none;
+        }
