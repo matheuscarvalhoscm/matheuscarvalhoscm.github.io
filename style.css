@@ -1,5 +1,6 @@
 
         body {
+            
             text-align: justify;
             font-family: 'Josefin Sans', sans-serif;
             font-size: 20px;
@@ -10,7 +11,7 @@
             background-color: rgb(255, 255, 255);
             border-radius: 5px;
             color: rgb(21, 21, 21);
-            margin: 0px 1250px 0px 10px;
+            margin: 1px 1000px 1px 1px;
             padding: 7px 5px;
             text-align: center;
             text-decoration: none;
@@ -28,6 +29,7 @@
             font-family: 'Josefin Sans', sans-serif;
             color: rgb(255, 255, 255);
         }
+        
 
         li {
             text-align: cen;
