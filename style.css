@@ -1,37 +1,65 @@
 
-        body {
-            
-            text-align: justify;
-            font-family: 'Josefin Sans', sans-serif;
-            font-size: 20px;
-            background-color: rgb(85, 131, 72);
-        }
-        
-        .button {
-            background-color: rgb(255, 255, 255);
-            border-radius: 5px;
-            color: rgb(21, 21, 21);
-            margin: 1px 1000px 1px 1px;
-            padding: 7px 5px;
-            text-align: center;
-            text-decoration: none;
-        }
+	* {
+		margin: 0px 0px;
+	}
 
-        #profile-picture {
-            border-radius: 100%;
-        }
+	body {
+		font-family: 'Josefin Sans', sans-serif;
+		background: url('279547.jpg') no-repeat center center fixed;
+  	background-size: cover;
+		margin: 0px;
+	}
 
-        p {
-            color: rgb(21, 21, 21)
-        }
+	.header {
+		display: flex;
+		justify-content: space-between;
+		background-color: rgb(0, 0, 0, 0.2);
+		padding: 30px;
+	}
 
-        .title {
-            font-family: 'Josefin Sans', sans-serif;
-            color: rgb(255, 255, 255);
-        }
-        
+	#right-container a {
+		font-size: 20px;
+		font-weight: bold;
+		text-decoration: none;
 
-        li {
-            text-align: cen;
-            list-style-type: none;
-        }
+		padding: 0px 10px;
+	}
+
+	.social-media {
+		display: flex;
+		flex-basis: 250px;
+		justify-content: space-evenly;
+	}
+
+	i, a {
+		color: rgb(255, 255, 255);
+		font-size: 30px;
+	}
+
+	a:hover, i:hover {
+		transition: 0.5s;
+		opacity: 0.8;
+		color: rgb(85, 131, 72);
+	}
+	
+	.container #about {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		max-width: 60%;
+		margin: 15% 10%;
+		padding: 20px;
+	}
+
+	.container h1 {
+		color: rgb(255, 255, 255);
+		font-size: 60px;
+		padding: 10px;
+	}
+
+	.container p {
+		color: rgb(255, 255, 255);
+		font-size: 20px;
+		padding: 10px;
+	}
+	
